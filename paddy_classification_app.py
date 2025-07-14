@@ -9,7 +9,7 @@ from tensorflow.keras.applications.efficientnet import preprocess_input
 register_heif_opener()
 
 # Load model
-model = tf.keras.models.load_model("paddy_disease_model.keras")
+model = tf.keras.models.load_model("Paddy-Disease/paddy_disease_model.keras")
 
 # Class labels
 class_names = [
